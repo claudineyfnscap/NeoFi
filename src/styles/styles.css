@@ -116,6 +116,7 @@ main p{
 }
 .content-btn{
     display: flex;
+    gap: 20px;
     
 
 
@@ -134,4 +135,90 @@ main p{
 .content-partner-images{
     display: flex;
     gap: 40px;
+}
+
+.section-breakdown{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 0px;
+    gap: 50px;
+}
+
+.content-feature{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.content-feature span{
+    color: var(--color-green);
+    border: 2px solid var(--color-gray3);
+    padding: 12px 20px;
+    border-radius: 24px;
+    font-family: var(--font-family-alexandria);
+    font-size: var(--font-size-text2);
+    gap: 20px;
+}
+
+.content-feature h2{
+    font-family:var(--font-family-alexandria);
+    font-size: var(--font-size-tittle2);
+    color: var(--color-white);   
+}
+.content-feature p{
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-text2);
+    color: var(--color-gray1);
+    width: 572px;
+    text-align: center;
+
+}
+
+.satisfied-partners{
+    background-color: var(--color-gray4);
+    color: var(--color-gray1);
+    padding: 40px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    font-size: var(--font-size-text1);
+    font-family: var(--font-family-alexandria);
+}
+.content-partner-images{
+    display: flex;
+    gap: 40px;
+}
+
+.container-cards-breakdown{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card-breakdown{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 36px;
+    padding: 48px 36px;
+    background-color: #ffff 4;
+    border-radius: 12px;
+    border: 1px solid var(--color-gray3);
+}
+
+.card-breakdown div h3{
+    color: var(--color-white);
+    font-size: var(--font-size-subtitle);
+    font-family: var(--font-family-inter);
+    font-weight: 400;
+}
+
+.card-breakdown div p{
+    color: var(--color-gray1);
+    font-size: var(--font-size-text1);
+    font-family: var(--font-family-alexandria);
+    width: 338px;
 }

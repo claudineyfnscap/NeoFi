@@ -165,7 +165,8 @@ main p{
 .content-feature h2{
     font-family:var(--font-family-alexandria);
     font-size: var(--font-size-tittle2);
-    color: var(--color-white);   
+    color: var(--color-white);
+    font-weight: 400;   
 }
 .content-feature p{
     font-family: var(--font-family-inter);
@@ -207,6 +208,13 @@ main p{
     background-color: #ffff 4;
     border-radius: 12px;
     border: 1px solid var(--color-gray3);
+    text-align: center;
+}
+
+.card-breakdown div{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 }
 
 .card-breakdown div h3{
@@ -222,3 +230,61 @@ main p{
     font-family: var(--font-family-alexandria);
     width: 338px;
 }
+
+.section-statistics{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    background-color: var(--color-gray4);
+    padding: 60px 0px;
+}
+.content-statistics{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.content-statistics span{
+    color: var(--color-green);
+    border: 1px solid var(--color-gray3);
+    padding: 12px 20px;
+    border-radius: 24px;
+}
+
+.content-statistics h2{
+    font-family:var(--font-family-alexandria);
+    font-size: var(--font-size-tittle2);
+    color: var(--color-white);
+    font-weight: 400;   
+}
+.content-statistics p{
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-text2);
+    color: var(--color-gray1);
+    width: 572px;
+    text-align: center;
+
+}
+
+.container-number{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 72px;
+    text-align: center;
+}
+.container-number h3{
+    color: var(--color-green);
+    font-family: var(--font-family-alexandria);
+    font-size: var(--font-size-tittle2);
+    font-weight: 400;
+
+}
+
+.container-number p{
+    color: var(--color-gray3);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-subtitle);
+}
+

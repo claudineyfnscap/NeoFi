@@ -288,3 +288,14 @@ main p{
     font-size: var(--font-size-subtitle);
 }
 
+.section-future-comment{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+.content-future{
+
+}
+.content-cards-future{}
+.content-future-tags{}

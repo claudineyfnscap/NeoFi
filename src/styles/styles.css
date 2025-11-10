@@ -303,6 +303,7 @@ main p {
     flex-direction: column;
     gap: 60px;
     padding: 60px 0px;
+    background-color: var(--color-black);
 }
 
 .content-future {
@@ -338,11 +339,18 @@ main p {
     line-height: 140%;
 }
 
+.container-cards{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
 .content-cards-future {
+    background-color: var(--color-gray4);
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    
 }
 
 .content-future-tags {
@@ -354,12 +362,10 @@ main p {
 
 }
 
-.container-card-blockchain{
-    background-color: var(--color-gray4);
-    border: 1px solid var(--color-gray2);
+.container-cards-blockchain{
     border-radius: 24px;
     display: flex;
-    flex-direction: column;
+    align-items: center;
     gap: 8px;
 }
 
@@ -425,4 +431,46 @@ main p {
     font-size: var(--font-size-text1);
     font-weight: 400;
     width: 792px;
+}
+.section-revolutionary{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    padding: 60px 0px;
+
+}
+.section-revolutionary span{
+    color: var(--color-green);
+    background-color: var(--color-black);
+    font-family: var(--font-family-alexandria);
+    font-size: var(--font-size-text2);
+    border: 1px solid var(--color-gray2);
+    border-radius: 24px;
+    padding: 12px 20px;
+}
+
+.section-revolutionary h2{
+    color: var(--color-white);
+    font-family: var(--font-family-alexandria);
+    font-size: var(--font-size-tittle2);
+    font-weight: 400;
+    text-transform: capitalize;
+    width: 878px;
+    text-align: center;
+}
+.section-revolutionary p{
+    font-family: var(--font-family-alexandria);
+    font-size: var(--font-size-button);
+    color: var(--color-gray1);
+    width: 644px;
+    text-align: center;
+}
+.section-revolutionary a{
+    background-color:var(--color-green);
+    padding: 14px 24px;
+    text-decoration: none;
+    color: #000;
+    font-size: var(--font-size-button);
+    font-family:var(--font-family-alexandria);
 }
